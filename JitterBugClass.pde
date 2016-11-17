@@ -2,6 +2,8 @@
                       // November 17, 2016
 JitterBug bug;
 JitterBug jit;
+Beetle beet;
+
 float c=1;
 void setup(){
   
@@ -10,6 +12,7 @@ void setup(){
   colorMode(HSB);
   bug = new JitterBug(width*0.33,height/2,50,c);
   jit = new JitterBug(width*0.66,height/2,10,c);
+  beet = new Beetle(width/2,height/2,c);
 }
 
 void draw(){
@@ -18,5 +21,7 @@ void draw(){
   jit.display();
   bug.move();
   bug.display();
+  beet.move();
+  beet.display();
   frameRate(c);
 }
