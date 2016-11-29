@@ -1,3 +1,4 @@
+//Jason Cabrejos 11 November 2016
 PImage img;
 float Grow=1;
 float Deg=0;
